@@ -27,7 +27,7 @@ main {
     height: fit-content;
 }
 
-h1,h2,h3,h4,h5,h6,p {
+h1,h2,h3,h4,h6,p {
     
     color: #f3f4f7;
     }
@@ -61,3 +61,24 @@ h1,h2,h3,h4,h5,h6,p {
         -webkit-text-stroke: initial;
         overflow: hidden;
       }
+
+h5{
+  color: black;
+}
+
+.list-group-item-action{
+padding-left: 10px;
+place-content: center;
+}
+
+.list-group-item-action:focus, .list-group-item-action:hover {
+  z-index: 1; 
+  color: #495057; 
+  text-decoration: none;
+  background-color: inherit;
+
+}
+
+.list-group {
+padding-bottom: 20px;
+}

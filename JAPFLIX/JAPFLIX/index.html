@@ -27,11 +27,30 @@
     <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
       <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasTopLabel">Offcanvas top</h5>
-        <p id="over_view"></p>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
-        <div class="offcanvas-body">   
-          
+      <div class="offcanvas-body" id="over_view">
+
+      </div>
+      <div class="row" style="padding-bottom: 20px; padding-left: 2%">
+      <div class="container">
+      <ul class="list-group container" id="genres">
+
+      </ul>
+      </div>
+      <div class="container">
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          More info
+        </button>
+        <ul class="dropdown-menu">
+          <li><a>Year: </a><a class="dropdown-item" id="release_date" href="#"></a></li>
+          <li><a>Runtime: </a><a class="dropdown-item" id="runtime" href="#"></a></li>
+          <li><a>Budget: </a><a class="dropdown-item" id="budget" href="#"></a></li>
+          <li><a>Revenue: </a><a class="dropdown-item" id="revenue" href="#"></a></li>
+        </ul>
+      </div>
+      </div>
       </div>
     </div>
 
