@@ -2,7 +2,7 @@
 
 En este repositorio se encuentran dos trabajos en grupo, la entrega 3 y 4 de los obligatorios grupales de JAP.
 
-## Por un lado, el trabajo grupal 3: 🌌🚀 Buscador de la NASA 🚀🌌##
+## Por un lado, el trabajo grupal 3: 🌌🚀 Buscador de la NASA 🚀🌌 ##
 
 En esta entrega grupal, trabajamos con una API de terceros, más concretamente ¡La API de imágenes de la NASA! 
 
